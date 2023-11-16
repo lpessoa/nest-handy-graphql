@@ -1,0 +1,36 @@
+{
+  "name": "@lpessoa/nest-handy-graphql",
+  "version": "0.1.0",
+  "description": "A handy graphql module for nestjs",
+  "main": "./dist/index.js",
+  "keywords": [
+    "nestjs",
+    "graphql",
+    "handy",
+    "cli"
+  ],
+  "bin": {
+    "@lpessoa/handy-graphql": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc && cp src/generator.ts dist/generator.ts",
+    "cli": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@nestjs/apollo": "^11.0.6",
+    "@nestjs/core": "^9.4.2",
+    "@nestjs/graphql": "^11.0.6",
+    "@nestjs/platform-express": "^9.4.2",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "figlet": "^1.7.0",
+    "glob": "^10.3.10",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/figlet": "1.5.8",
+    "@types/node": "^18.13.0s",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.2.2"
+  }
+}
