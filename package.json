@@ -10,7 +10,7 @@
     "cli"
   ],
   "bin": {
-    "handy-graphql": "./dist/index.js"
+    "@lpessoa/handy-graphql": "./dist/index.js"
   },
   "scripts": {
     "build": "npx tsc && cp src/generator.ts dist/generator.ts",
