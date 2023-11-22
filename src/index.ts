@@ -17,6 +17,7 @@ async function doStuff(opts: any) {
   );
 
   fs.copyFileSync(`${__dirname}/generator.ts`, `${process.cwd()}/generator.ts`);
+  spawnSync("npm", ["install"]);
   spawnSync(
     "npx",
     [
