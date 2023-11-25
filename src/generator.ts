@@ -1,5 +1,3 @@
-#!/usr/bin/env npx ts-node
-
 /* eslint-disable no-console */
 import { NestFactory } from "@nestjs/core";
 import {
