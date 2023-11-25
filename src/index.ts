@@ -1,5 +1,3 @@
-#!/usr/bin/env npx ts-node
-
 import { spawnSync } from "child_process";
 import * as fs from "fs";
 import { Command } from "commander";
